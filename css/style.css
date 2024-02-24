@@ -107,7 +107,7 @@ background-repeat: no-repeat;
 }
 .section-hero{
     padding: 180px 170px;
-    background-image: url(/images/group48.png);
+    background-image: url(../images/group48.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -167,7 +167,7 @@ background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     padding: 330px 0;
-    background-image: url(/images/rectangle10.png);
+    background-image: url("../images/rectangle10.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -183,6 +183,8 @@ background-repeat: no-repeat;
     font-family: "HeadlandOne" sans-serif;
     font-size: 24px;
     font-weight: 400;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 .learn_lang{
     padding: 91px 0;
@@ -254,20 +256,29 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
     padding: 35px 0 25px;
     background-size: cover;
+    align-items: center;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+
 }
 .mail-list{
     display: flex;
     justify-content: center;
     flex-direction: column;
-   border-left: 1px solid #fff;
+   border-left: 3px solid #fff;
+   padding-left: 75px;
+   padding-top: 44px;
 
 }
 .mail-list-link{
     color: var(--white);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 37px;
     font-weight:400px;
+    margin-right: 20px;
 }
 .mail-list-text{
     font-weight: 400;
@@ -285,29 +296,30 @@ background-repeat: no-repeat;
     width: 269px;
       height: 1px;
       margin-left: 12px;
-  background-image: url("../images/Line1.png");
+  background-image: url("../images/vector8.svg");
+
   }
   .mail-list-item:nth-child(2) .mail-list-text::after {
     content: "";
       display: inline-block;
       height: 2px;
       width: 210px;
-      margin-left: 12px;
-    background-image: url("");
+    background-image: url("../images/vector9.svg");
   }
-.mail-list-texe::after{
+.mail-list-texе::after{
     display: block;
     content: "";
     background-image: url("");
 }
-.mail-list-link::after{
+.mail-list-text::after{
     display: block;
-    width: 20px;
-    background-image: url("");
+    width: 2px;
+    background-image: url("../");
 }
 .footer-copyright {
     font-weight: 400;
     font-size: 14px;
-    text-align: justify;
+    text-align: center;
     color: var(--white);
+    padding-bottom: 25px;
 }
